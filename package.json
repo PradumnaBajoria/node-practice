@@ -1,0 +1,23 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Practice of node package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PradumnaBajoria/node-practice.git"
+  },
+  "author": "Pradumna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PradumnaBajoria/node-practice/issues"
+  },
+  "homepage": "https://github.com/PradumnaBajoria/node-practice#readme",
+  "dependencies": {
+    "superheroes": "^3.0.0",
+    "supervillains": "^3.0.0"
+  }
+}

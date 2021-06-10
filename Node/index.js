@@ -1,9 +1,13 @@
 //jshint esversion:6
 
-//console.log("hello world");
+var superheroes = require("superheroes");
 
-// use node index.js in terminal to run code
+var mySuperheroName = superheroes.random();
 
-const fs = require("fs");
+console.log(mySuperheroName)
 
-fs.copyFileSync("file1.txt", "file2.txt");
+var supervillains = require("supervillains");
+
+var mySupervillainName = supervillains.random();
+
+console.log(mySupervillainName)
